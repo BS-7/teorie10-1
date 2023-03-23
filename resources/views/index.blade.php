@@ -47,6 +47,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 @endsection
 @push('scripts')
@@ -67,7 +68,10 @@
                     backgroundColor: [
                     'rgba(105, 230, 166, 1)',
                     'rgba(26, 43, 59, 1)',
-                    'rgba(13, 187, 252, 1)'
+                    'rgba(13, 187, 252, 1)',
+                    'rgb(255, 99, 132)',    
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
                     ],
                     hoverOffset: 4
                 }]

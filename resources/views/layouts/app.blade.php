@@ -28,11 +28,18 @@
                 <a href="#" class="login">Autentificare</a>
             </div>
         </div>
+
 </header>
 @yield('content')
 <footer>
     Cojocari Ecaterina AAW-1942
 </footer>
 @stack('scripts')
+    </header>
+    @yield('content')
+    <footer>
+        Nume, prenume, grupa
+    </footer>
+    @stack('scripts')
 </body>
 </html>

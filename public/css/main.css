@@ -84,6 +84,7 @@ main{
     width: 400px;
     position: relative;
 }
+
 .grafic > img{
     width: 100%;
 }
@@ -138,6 +139,7 @@ main{
     border-radius: 4px;
     padding: 8px 16px;
     border: 1px solid #76CDD8;
+
 }
 .buttons{
     display: flex;
