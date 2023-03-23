@@ -15,7 +15,7 @@
                 <img src="{{ asset('imagini/logo.png') }}" class="logo">
             </a>
             <nav class="links">
-                <a href="#">Despre</a>
+                <a href="#" class="active">Despre</a>
                 <a href="#">Produse metodice</a>
                 <a href="#">Exemple de lucrari</a>
             </nav>
@@ -29,6 +29,10 @@
             </div>
         </div>
     </header>
-
+    @yield('content')
+    <footer>
+        Nume, prenume, grupa
+    </footer>
+    @stack('scripts')
 </body>
 </html>

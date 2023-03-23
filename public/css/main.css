@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    height: 64px;
+    align-items: center;
+}
+.main-nav > a{
+    text-decoration: none;
+    display: block;
+}
+.links{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    padding: 8px 15px;
+}
+.links a.active{
+    color: #76CDD8;
+    border-bottom: 2px solid #76CDD8;
+}
+header{
+    background: radial-gradient(9.18% 304.83% at -4.79% 158.96%, rgba(255, 255, 255, 0.5) 0%, rgba(237, 246, 255, 0.57818) 100%);
+    height: 448px;
+}
+.home-content{
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 1000px;
+    margin: 100px auto 0;
+}
+.home-content > h1{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    letter-spacing: 0.1em;
+    color: #1A2B3B;
+}
+.home-content > p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #1A2B3B;
+}
+footer{
+    height: 200px;
+    background: radial-gradient(9.18% 304.83% at -4.79% 158.96%, rgba(255, 255, 255, 0.5) 0%, rgba(237, 246, 255, 0.57818) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    gap: 20px;
+}
+.text{
+    width: 580px;
+}
+.grafic{
+    width: 400px;
+    position: relative;
+}
+.text > h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.032em;
+    color: #1F1F1F;
+    text-align: justify;
+    padding: 30px;
+}
+.services{
+    padding: 30px;
+}
+.services > div {
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    display: flex;
+    height: 60px;
+    gap: 33px;
+    align-items: center;
+    padding-left: 33px;
+    margin-bottom: 32px;
+}
+.services .active{
+    color: white;
+    background: #1A2B3B;
+}
+.diagrama{
+    position: absolute;
+    top: 200px;
+    left: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+}
+.register{
+    background: #76CDD8;
+    border: 1px solid #76CDD8;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.login{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 16.65%, rgba(210, 236, 255, 0.225388) 112.33%);
+    color: #76CDD8;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: 1px solid #76CDD8;
+}
